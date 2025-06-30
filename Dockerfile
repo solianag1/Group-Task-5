@@ -1,9 +1,6 @@
 FROM openjdk:20
-
-RUN mkdir /app
-
-COPY out/production/HelloWorld/ /app
-
 WORKDIR /app
+COPY src/ /app/
+RUN javac *.java
+CMD ["java", "HelloWorld"]
 
-CMD java HelloWorld
