@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Group-Task-4- Automate Docker Deployment with GitHub Actions
 
 **Group Memebers**
@@ -22,3 +23,6 @@ WORKDIR /app
 COPY src/ /app/
 RUN javac *.java
 CMD ["java", "HelloWorld"]
+=======
+# Group-Task-5
+>>>>>>> 0b76787b50887416b8a7ec1b5b3838e718d0eeda
